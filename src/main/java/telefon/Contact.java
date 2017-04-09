@@ -3,7 +3,7 @@ package telefon;
 /**
  * Created by gpascal on 4/7/2017.
  */
-public abstract class Contact {
+public class Contact {
 
     private String lastName;
     private String firstName;
@@ -52,6 +52,6 @@ public abstract class Contact {
     @Override
     public String toString()
     {
-        return this.getFirstName() + this.getLastName() + "\n" + this.getPhoneNumber() + "\n" + this.getHomeAddress();
+        return this.getFirstName() + " " + this.getLastName() + "\n" + this.getPhoneNumber() + "\n" + this.getHomeAddress();
     }
 }
